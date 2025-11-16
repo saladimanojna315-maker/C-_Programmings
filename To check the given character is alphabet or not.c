@@ -1,0 +1,13 @@
+//write a c program to check the given character is alphabet or not 
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("enter a charcter:");
+	scanf(" %c",&ch);
+	if((ch >= 65 && ch <= 90 )||(ch >= 97  && ch <= 122))
+	printf("YES\n");
+	else 
+	printf("NO\n");
+	return 0;
+}
